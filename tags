@@ -1,0 +1,11 @@
+_SYS_TIME_H	c:\MinGW\include\sys\time.h	/^#define _SYS_TIME_H$/;"	macro	line:37
+timeval	c:\MinGW\include\sys\time.h	/^struct timeval$/;"	struct	line:55
+tv_sec	c:\MinGW\include\sys\time.h	/^  long tv_sec;		\/* whole number of seconds in interval *\/$/;"	member	line:64	struct:timeval	access:public
+tv_usec	c:\MinGW\include\sys\time.h	/^  long tv_usec; 	\/* additional fraction as microseconds *\/$/;"	member	line:65	struct:timeval	access:public
+timerclear	c:\MinGW\include\sys\time.h	/^#define timerclear( tvp )  (tvp)->tv_sec = (tvp)->tv_usec = 0$/;"	macro	line:76
+timerisset	c:\MinGW\include\sys\time.h	/^#define timerisset( tvp )  ((tvp)->tv_sec || (tvp)->tv_usec)$/;"	macro	line:77
+timercmp	c:\MinGW\include\sys\time.h	/^#define timercmp( tvp, uvp, cmp )  (((tvp)->tv_sec != (uvp)->tv_sec)	\\$/;"	macro	line:79
+timezone	c:\MinGW\include\sys\time.h	/^struct timezone$/;"	struct	line:86
+tz_minuteswest	c:\MinGW\include\sys\time.h	/^  int tz_minuteswest;		\/* of the Greenwich meridian *\/$/;"	member	line:94	struct:timezone	access:public
+tz_dsttime	c:\MinGW\include\sys\time.h	/^  int tz_dsttime;		\/* type of DST correction to apply *\/$/;"	member	line:95	struct:timezone	access:public
+gettimeofday	c:\MinGW\include\sys\time.h	/^int __cdecl __MINGW_NOTHROW gettimeofday$/;"	prototype	line:108	signature:(struct timeval *__restrict__, void *__restrict__ )	returns:int __cdecl __MINGW_NOTHROW 
